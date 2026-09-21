@@ -1,6 +1,6 @@
-## Добро пожаловать на мой репозиторий с демонстрационной версией моей игры 👋
+## Welcome to my repository featuring a demo version of my game 👋
 [🎬 Видео с образцами геймплея](https://drive.google.com/file/d/1PNKDttSdC9amDdgD7SlUfcFkFKjC12S5/view?usp=drive_link)
-## Ссылка на основной репозиторий разработки с исходным кодом
+## Link to the main development repository with the source code
 https://github.com/Oleg0501/moonsteel-saga
 
-При необходимости посмотреть исходники кода для доступа и технического review могу временно добавить в collaborators по вашему запросу
+If you need access to the source code for technical review, I can temporarily add you as a collaborator upon request
