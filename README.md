@@ -14,5 +14,5 @@ The architecture is designed around the following requirements:<br>
 • independent development of individual parts.<br>
 
 The implementation is based on the following principles:<br>
-• **MVP** — the project is divided into two main independent layers: game logic and user interface. The layers do not depend on each other directly and interact through a separate integration layer. This allows the UI to be modified without changing the game logic, while the logic can evolve independently of the specific view implementation;<br>
+• **MVP** — the project is divided into two main independent layers: game logic and user interface. The layers do not depend on each other directly and interact through a separate integration layer.<br>
 • **Dependency Injection** — dependencies are managed using Zenject. Components are registered through Scene Contexts and Installers, while the startup and initialization of individual subsystems are handled by custom bootstrap components.<br>
