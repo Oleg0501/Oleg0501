@@ -48,14 +48,7 @@ namespace Code.Client.Logic.ECS.Health.Systems
                 var healthChange = _healthChangeEcsPool.Get(entity).HealthChange;
                 var healthMax = _statisticsEcsPool.Get(entity).StatisticsArgs.HealthMax;
                 
-                if (healthComponent.Health + healthChange > healthMax)
-                {
-                    healthComponent.Health = healthMax;
-                }
-                else
-                {
-                    healthComponent.Health += healthChange;
-                }
+                healthComponent.Health = Mathf.Clamp(healthComponent.Health + healthChange, 0f, healthMax);
                 
                 if (healthComponent.Health <= 0f)
                 {
