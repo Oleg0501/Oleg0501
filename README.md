@@ -17,7 +17,7 @@ The implementation is based on the following principles:<br>
 • **MVP** — the project is divided into two main independent layers: game logic and user interface. The layers do not depend on each other directly and interact through a separate integration layer.<br>
 • **Dependency Injection** — dependencies are managed using Zenject. Components are registered through Scene Contexts and Installers, while the startup and initialization of individual subsystems are handled by custom bootstrap components.<br>
 
-## Sample of MVP realization
+## Samples
 For example, there is a logical ECS entity representing the player, which is processed by an ECS system responsible for health changes:
 ```csharp
 namespace Code.Client.Logic.ECS.Health.Systems
